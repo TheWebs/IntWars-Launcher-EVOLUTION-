@@ -1,0 +1,35 @@
+﻿<Controls:MetroWindow x:Class="LoginSystem.IntClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginSystem"
+        mc:Ignorable="d"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        Title="IntClient" Height="510.333" Width="893" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="button" Content="Start IntWars" HorizontalAlignment="Left" Height="322" Margin="353,10,0,0" VerticalAlignment="Top" Width="322" Style="{DynamicResource MetroCircleButtonStyle}" Click="button_Click" Cursor="Hand" Background="#FF6A48B2" 
+/>
+        <Grid Margin="10,58,664,203">
+            <TextBox x:Name="NameBox" HorizontalAlignment="Left" Height="28" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+            <TextBox x:Name="RankBox" HorizontalAlignment="Left" Height="4" Margin="0,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+            <TextBox x:Name="ChampionBox" HorizontalAlignment="Left" Height="28" Margin="0,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+            <TextBox x:Name="RibbonBox" HorizontalAlignment="Left" Height="28" Margin="0,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+            <TextBox x:Name="SkinBox" HorizontalAlignment="Left" Height="4" Margin="0,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+            <TextBox x:Name="SideBox" HorizontalAlignment="Left" Height="22" Margin="0,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+            <TextBox x:Name="IconBox" HorizontalAlignment="Left" Height="19" Margin="0,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="28" Margin="143,0,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="28" Margin="143,31,0,0" TextWrapping="Wrap" Text="Rank" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="28" Margin="143,64,0,0" TextWrapping="Wrap" Text="Champion" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Height="28" Margin="143,97,0,0" TextWrapping="Wrap" Text="Ribbon" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Height="28" Margin="143,130,0,0" TextWrapping="Wrap" Text="Side" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Height="28" Margin="143,163,0,0" TextWrapping="Wrap" Text="Skin" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Height="28" Margin="143,196,0,-6" TextWrapping="Wrap" Text="Icon" VerticalAlignment="Top" Width="172"/>
+
+        </Grid>
+        <ProgressBar x:Name="ProgressBar1" HorizontalAlignment="Left" Height="58" Margin="-13,423,-12,0" VerticalAlignment="Top" Width="912" Background="White" BorderBrush="#FF7A39EC" Foreground="#FF311E68"/>
+        <Label x:Name="label" Content="Success!" HorizontalAlignment="Left" Height="46" Margin="398,425,0,0" VerticalAlignment="Top" Width="134" Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontSize="29.333" Visibility="Hidden"/>
+
+    </Grid>
+</Controls:MetroWindow>

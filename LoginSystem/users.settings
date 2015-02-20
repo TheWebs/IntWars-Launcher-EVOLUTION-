@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LoginSystem" GeneratedClassName="users">
+  <Profiles />
+  <Settings>
+    <Setting Name="user" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kikko298</Value>
+    </Setting>
+    <Setting Name="pass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MargaridaLopes1</Value>
+    </Setting>
+    <Setting Name="Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TheWebs</Value>
+    </Setting>
+    <Setting Name="Rank" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DIAMOND</Value>
+    </Setting>
+    <Setting Name="Champion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ezreal</Value>
+    </Setting>
+    <Setting Name="Icon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">505</Value>
+    </Setting>
+    <Setting Name="Ribbon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="Skin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="Side" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BLUE</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
